@@ -49,6 +49,7 @@ body{
 #score{
     color: #D3D3D3;
     padding: 5px;
+    
     font-family: "Times New Roman", Times, serif;
 }
 #2 span{
@@ -63,7 +64,7 @@ body{
     color: #D3D3D3;
     padding: 5px;
     font-family: "Times New Roman", Times, serif;
-    float: left;
+    //margin: auto;
 }
 
 #title{
@@ -80,6 +81,7 @@ body{
 }
 #top .left{
     float: left;
+    width: 50%;
 }
 #top .middle{
     display: inline;
@@ -111,7 +113,7 @@ h1{
 
 h2{
     text-align: left;
-        width: 100%;
+    width: 50%;
     position:absolute;
     bottom:0;
 
