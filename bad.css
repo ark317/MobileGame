@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+.row{
+    width: 100%;
+    
+}
+.block{
+    
+    background-color: navy;
+    transition: background-color 0.25s ease;
+}
+
+#replay{
+    width: 200px;
+    weight: 180px;
+    margin-top: -90px;
+    margin-left: -100px;
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #D3D3D3;
+    text-align: center;
+    border-radius: 5px;
+
+}
+#rematch{
+    display: inline-block;
+    color: #D3D3D3;
+    margin: auto auto;
+    border: 2px solid #D3D3D3;
+    padding: 5px;
+
+}
+#rematch:hover{
+    cursor: armaan;
+    opacity: .7;
+}
+
+#game{
+    width: 100%;
+    height: 100%;
+    background-color: navy;
+}
+
+#score{
+    color: #D3D3D3;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+#2 span{
+    color: #D3D3D3;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+#3{
+    text-align: right;
+}
+#time_left{
+    color: #D3D3D3;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    float: left;
+}
+
+#title{
+    color: #D3D3D3;
+}
+
+#top{
+    font-family: "Times New Roman", Times, serif;
+    color: #D3D3D3;
+    background-color: navy;text-align: center;
+    font-size: 1.4em;
+    padding: 5px;
+    
+}
+#top .left{
+    float: left;
+}
+#top .middle{
+    display: inline;
+}
+#top .right{
+    float: right;
+}
+
+#playButton{
+    padding: 5px;
+    border-radius: 1px;
+    margin-top: 20%;
+    display: inline-block;
+    font-size: 1.8em;
+    font-family: "Times New Roman", Times, serif;
+    color: #D3D3D3;
+    border: solid 2px #D3D3D3;
+    
+}
+#playButton:hover{
+    opacity: .8;
+    cursor: armaan;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+        width: 100%;
+    position:absolute;
+    bottom:0;
+
+}
+
+#replay h3{
+    color: #D3D3D3;
+}
+
+.block:hover{
+    cursor: armaan;
+    opacity: .9;
+}
+
+table, th, td {
+    border: 4px solid white;
+}
